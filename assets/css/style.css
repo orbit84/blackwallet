@@ -1,0 +1,157 @@
+#unlock, #generate, #walletSend, #walletReceive, #walletInspect, 
+#walletHoldings, #walletCharts, #walletCommunity, #walletDonate, 
+#walletGiveaway, #walletSettings, #walletHeader, #walletTools {
+	display:none;
+}
+
+
+
+
+.semi-strong-grey {
+	background:#171717;
+}
+
+.strong-grey {
+	background:#111;
+}
+
+
+.very-strong-grey {
+	background:#050505;
+}
+
+.bluegrey {
+	background:#101418 !important;
+}
+
+.soft-bluegrey {
+	background:#151a1f !important;
+}
+
+
+thead {
+    border-bottom:none;
+}
+
+table#transactions{
+	width:100% !important;
+	min-width: 0px;
+	table-layout: fixed !important;
+}
+table#transactions tbody tr td, table#transactions thead tr th {
+	width:25% !important;
+	max-width:25% !important;
+	overflow: hidden !important;
+	word-wrap: break-word !important;
+	display: inline-block;
+}
+
+table.striped>tbody>tr:nth-child(odd) {
+    background-color: transparent;
+}
+
+
+table.striped>tbody>tr:nth-child(even) {
+    background-color: #151a1f !important;
+}
+
+
+.justify{
+	text-align:justify;
+}
+
+
+blockquote{
+	border-color:#1a1f2a;
+}
+
+/* override materialize select */
+.select-wrapper span.caret {
+	color:#d3d3d3 !important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+	color:#2196F3 !important;
+}
+/* --------------------- */
+
+/* override materialize checkboxes */
+[type="checkbox"]:checked+label:before {
+	border-right: 2px solid #2196F3 !important;
+    border-bottom: 2px solid #2196F3 !important;
+
+}
+
+
+/* --------- */
+
+
+
+/* override materialize radioboxes */
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+	border-color: #2196F3 !important;
+
+}
+/* --------- */
+
+/* override materialize row */
+.row {
+	position:relative;
+}
+
+.close {
+	position:absolute; 
+	right:10px;
+	top:5px;
+	transition:all .3s;
+	z-index:100;
+}
+
+.close:hover {
+	transform:rotate(180deg);
+}
+
+.close a > i {
+	transition:all .3s;
+}
+
+
+.close:hover a > i:nth-child(1) {
+	color:#EF5350 !important;
+}
+
+
+/* better tool display for tablets & mobile devices */
+.tools {
+	position:fixed;
+	width: 100%;
+	bottom:0;
+	padding:5px;
+	left:0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+	z-index:1000;
+	background:#111;
+}
+
+
+table#holdings{
+	width:100% !important;
+	min-width: 0px;
+	table-layout: fixed !important;
+}
+table#holdings tbody tr td, table#holdings thead tr th {
+	width:33% !important;
+	max-width:33% !important;
+	overflow: hidden !important;
+	word-wrap: break-word !important;
+	display: inline-block;
+}
+
+table {
+	table-layout:fixed;
+}
+td {
+	word-wrap: break-word !important;
+}

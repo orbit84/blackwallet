@@ -1,0 +1,91 @@
+/* margins */
+
+.margin-UBLR {
+	margin:5px;
+}
+
+.margin-UB {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.margin-UB-large {
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.margin-LR {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.margin-U {
+	margin-top:15px !important;
+}
+.margin-U-large {
+  margin-top:25px !important;
+}
+
+.margin-B {
+	margin-bottom:15px !important;
+}
+
+
+/* padding */
+.padding-UB {
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+}
+
+.padding-UB-large {
+	padding-top:25px !important;
+	padding-bottom:25px !important;
+}
+
+.padding-B-large {
+  padding-bottom:50px !important;
+}
+
+.padding-LR {
+  padding-left:10px !important;
+  padding-right:10px !important;
+}
+
+
+/* padding */
+.padding-UBLR {
+  padding:10px !important;
+}
+
+.padding-UBLR-large {
+  padding:25px !important;
+}
+
+.border-radius {
+  border-radius: 5px;
+}
+
+/* materialize css input override */
+  /* label color */
+   .input-field label {
+     color: #b0b0b0;
+ 	}
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #2196F3;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #2196F3;
+     box-shadow: 0 1px 0 0 #2196F3;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #2196F3 !important;
+   }
+
+/*textarea*/
+
+   textarea.materialize-textarea:focus {
+     border-bottom: 1px solid #2196F3 !important;
+     box-shadow: 0 1px 0 0 #2196F3 !important;
+   }
