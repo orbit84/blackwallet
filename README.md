@@ -86,7 +86,7 @@ a.b.c format, we increment the c at each update - b is incremented on HUGE updat
 
 ## Contributors
 
-* **nekraatal** - *Italian translation-
+* **nekrataal** - *Italian translation*
 
 ## License
 
@@ -95,5 +95,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * stellar-public Slack users for helping me! 
-* GalacticTalk.org & StellarCommunity.org users for providing feedbacks, bug reports, ideas etc.
+* [GalacticTalk.org](http://galactictalk.org/) & [StellarCommunity.org](http://stellarcommunity.org/) users for providing feedbacks, bug reports, ideas etc.
 * [Stellar Foundation](https://stellar.org)
