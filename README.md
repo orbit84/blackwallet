@@ -63,6 +63,9 @@ var LIVE = true;
 And then simply upload to your server.
 
 
+## Official thread
+On galactictalk: https://galactictalk.org/d/369-blackwallet-enhanced-account-viewer
+
 ## Built With
 
 * [Materializecss](http://materializecss.com/) - Front-end framework
