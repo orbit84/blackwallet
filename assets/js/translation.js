@@ -229,7 +229,7 @@ langs.english = {
 	"securityParagraph":"Blackwallet doesn't store your secret key on it's server.<br/> \
 						If you use blackwallet without enabling the mobile mode in the settings, then your secret key will be temporarily stored in a javascript variable, no risks.<br/> \
 						If you use the mobile mode, your secret key(s) will be stored in the localStorage (<a href=\"https://www.w3schools.com/html/html5_webstorage.asp\" target=\"_blank\">read more</a>).<br/>\
-						Blackwallet currently works on a PIN encryption system, it should be released in the coming hours/day (i'm working on it) - as of now, the encryption system is weak and that's why we strongly recommend the mobile mode to only be enabled on mobile devices (preferably on iOS devices).<br/><br/> \
+						Blackwallet currently works on a PIN encryption system - as of now, the encryption system is weak and that's why we strongly recommend the mobile mode to only be enabled on mobile devices (preferably on iOS devices).<br/><br/> \
 						Devs, blackwallet is opensource! you can check and improve it: <a href=\"https://github.com/orbit84/blackwallet\" target=\"_blank\">blackwallet on github</a>",
 
 };
