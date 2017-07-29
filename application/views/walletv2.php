@@ -963,3 +963,30 @@
 	  <a class="modal-action modal-close waves-effect waves-light btn-flat grey-text text-lighten-1">{{text.cancel}}</a>
 	</div>
 </div>
+
+<div id="pinModal" class="modal bluegrey grey-text">
+        <div class="modal-content">
+                <h4 class="flow-text blue-text">{{text.pin}}</h4>
+                <div class="row padding-UB-large">
+                        <div class="input-field"> 
+                        			<i class="fa fa-lock center-align prefix"></i>
+									<input type="text"  pattern="[0-9]"  id="pinCode" autocomplete="off" spellcheck="false" maxlength="6"/>
+	                                <label for="pinCode">{{text.enterPin}}</label>
+                        </div>
+                </div>
+        </div>
+        <div class="modal-footer soft-bluegrey white-text">
+                <a class="modal-action modal-close waves-effect waves-green btn-flat green-text setLanguage">{{text.confirm}}</a>              </div>
+</div>
+
+<div id="securityModal" class="modal bluegrey grey-text">
+        <div class="modal-content">
+                <h4 class="flow-text blue-text">{{text.securityConcerns}}</h4>
+                <div class="row padding-UB-large">
+                	<p>{{text.securityParagraph}}</p>
+                </div>
+        </div>
+        <div class="modal-footer soft-bluegrey white-text">
+                <a class="modal-action modal-close waves-effect btn-flat grey-text text-lighten-1">{{text.cancel}}</a>              </div>
+</div>
+
